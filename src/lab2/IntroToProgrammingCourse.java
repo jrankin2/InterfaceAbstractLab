@@ -8,7 +8,16 @@ import javax.swing.JOptionPane;
  * @author      your name goes here
  * @version     1.00
  */
-public class IntroToProgrammingCourse {
+public class IntroToProgrammingCourse implements Course {
+
+    public String getPrerequisites() {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    public void setPrerequisites(String prerequisites) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+    
     private String courseName;
     private String courseNumber;
     private double credits;
