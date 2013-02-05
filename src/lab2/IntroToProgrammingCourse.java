@@ -15,7 +15,7 @@ public class IntroToProgrammingCourse implements Course {
     }
 
     public void setPrerequisites(String prerequisites) {
-        throw new UnsupportedOperationException("Not supported yet.");
+        //
     }
     
     private String courseName;
@@ -60,7 +60,7 @@ public class IntroToProgrammingCourse implements Course {
     public final void setCourseName(String courseName) {
         if(courseName == null || courseName.length() == 0) {
             JOptionPane.showMessageDialog(null,
-                    "Error: courseName cannot be null of empty string");
+                    "Error: courseName cannot be null or empty string");
             System.exit(0);
         }
         this.courseName = courseName;
